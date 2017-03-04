@@ -90,8 +90,3 @@ class Collector:
         save_url(Collector.project_name, Collector.queue)
         Collector.queue.clear()
         Collector.crawled.clear()
-
-# for test
-# Collector('1', 'http://news.baidu.com/ns?ct=0&rn=20&pn=0&ie=utf-8&rsv_bp=1&sr=0&cl=2&f=8&prevct=no&tn=news&word=exo',
-#  'baidu.com')
-# mark_target('1')
