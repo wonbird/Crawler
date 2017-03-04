@@ -553,7 +553,7 @@ class Miner:
 
             article = ''
             for a_str in articles:
-                if a_str.string == None:
+                if a_str.string is None:
                     pass
                 else:
                     article += a_str.text.strip()
