@@ -19,9 +19,7 @@ def check_skip_url(url):
             return True
         elif url.count('/photo/') > 0:
             return True
-        elif url.count('/picture.youth.cn/') > 0:
-            return True
-        elif url.count('/fun.youth.cn/') > 0:
+        elif url.count('.youth.cn/') > 0:
             return True
         elif url.count('pic.gmw.cn/') > 0:
             return True
